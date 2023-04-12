@@ -2,6 +2,7 @@
 
 ## 1. Linear Regression to Predict MPG
 The MechaCar_mpg.csv dataset containing mpg test results for 50 prototype MechaCars is analyzed using a linear model. The MechaCar prototypes were produced using multiple design specifications to identify ideal vehicle performance. Multiple metrics, such as vehicle length, vehicle weight, spoiler angle, drivetrain, and ground clearance, were collected for each vehicle. Using R, a linear model that predicts the mpg of MechaCar prototypes using several variables from the MechaCar_mpg.csv file is shown below to answer the questions below.
+
 ![image](https://user-images.githubusercontent.com/114967995/231609490-5e347fe2-8109-4dd4-93ab-ff8d392bfb56.png)
 
 ### Which variables/coefficients provided a non-random amount of variance to the mpg values in the dataset?
