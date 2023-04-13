@@ -14,3 +14,9 @@ No, the slope of the linear model is not considered to be zero because the p-val
 
 ### Does this linear model predict mpg of MechaCar prototypes effectively? Why or why not?
 The linear model has an adjusted R-squared value of 0.6825, which indicates that approximately 68% of the variability in the response variable (mpg) can be explained by the predictor variables in the model. This suggests that the model may be moderately effective in predicting the mpg of MechaCar prototypes. However, it's important to note that there may be other variables not included in the model that could also affect the mpg values. Additionally, further validation and testing may be required to determine the true effectiveness of the model.
+
+
+## 2. Visualizations for Trip Analysis
+
+![image](https://user-images.githubusercontent.com/114967995/231612512-694c6016-bb88-4a8f-b41a-efd36a108f4f.png)
+
