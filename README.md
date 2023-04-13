@@ -16,8 +16,14 @@ No, the slope of the linear model is not considered to be zero because the p-val
 The linear model has an adjusted R-squared value of 0.6825, which indicates that approximately 68% of the variability in the response variable (mpg) can be explained by the predictor variables in the model. This suggests that the model may be moderately effective in predicting the mpg of MechaCar prototypes. However, it's important to note that there may be other variables not included in the model that could also affect the mpg values. Additionally, further validation and testing may be required to determine the true effectiveness of the model.
 
 
-## 2. Visualizations for Trip Analysis
+## 2. Summary Statistics on Suspension Coils
 The MechaCar Suspension_Coil.csv dataset contains the results from multiple production lots. The dataset comprises the weight capacities of multiple suspension coils  tested to determine if the manufacturing process is consistent across production lots. Using knowledge of R, a summary statistics is done and the table is showing the following below:
+(i) The suspension coil’s PSI continuous variable across all manufacturing lots.
+(ii) The following PSI metrics for each lot: mean, median, variance, and standard deviation.
+
+Addressing the following:
+(iii) The design specifications for the MechaCar suspension coils dictate that the variance of the suspension coils must not exceed 100 pounds per square inch. Does the current manufacturing data meet this design specification for all manufacturing lots in total and each lot individually? Why or why not?
+
 ### (i) The suspension coil’s PSI continuous variable across all manufacturing lots.
 
 ### Total Summary 
@@ -29,6 +35,34 @@ The MechaCar Suspension_Coil.csv dataset contains the results from multiple prod
 
 ### Lot Summary
 ![image](https://user-images.githubusercontent.com/114967995/231615478-db7da3aa-2609-4a44-b69e-0820c35c9a66.png)
+
+
+### (iii) Looking at the variance of the PSI column in the total_summary dataframe and the lot_summary dataframe.
+
+According to the question, the design specification for the MechaCar suspension coils is that the variance of the suspension coils must not exceed 100 pounds per square inch. If the variance of the PSI column exceeds 100 pounds per square inch, it means that the current manufacturing data does not meet the design specification.
+
+From the total_summary dataframe, we can see the variance of the PSI column is 76.23 pounds per square inch, which is less than 100 pounds per square inch. Therefore, the current manufacturing data meets the design specification for all manufacturing lots in total.
+
+However, when we look at the lot_summary dataframe, we can see that the variance of the PSI column for Lot 3 is 170.29 pounds per square inch, which exceeds the design specification of 100 pounds per square inch. Therefore, the current manufacturing data does not meet the design specification for Lot 3 individually.
+
+In summary, the current manufacturing data meets the design specification for all manufacturing lots in total, but does not meet the design specification for Lot 3 individually, as its variance of the PSI column exceeds 100 pounds per square inch.
+
+ ## 3. T-Tests on Suspension Coils
+ Write a short description of a statistical study that can quantify how the MechaCar performs against the competition. In your study design, think critically about what metrics would be of interest to a consumer: for a few examples, cost, city or highway fuel efficiency, horse power, maintenance cost, or safety rating.
+
+In your description, address the following questions:
+
+What metric or metrics are you going to test?
+
+What is the null hypothesis or alternative hypothesis?
+
+What statistical test would you use to test the hypothesis? And why?
+
+What data is needed to run the statistical test?
+
+
+
+
 
 
 
