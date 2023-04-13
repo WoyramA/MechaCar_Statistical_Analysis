@@ -125,25 +125,25 @@ Lot 3 had a mean of 1496.14 (+/- SD 13.05), with a median 1498.5 and a variance 
 
 ##### To determine if all manufacturing lots are statistically different from the population mean of 1,500 pounds per square inch (PSI)
 Since p>0.05,
-Hence we fail to reject the Ho.
+Hence we fail to reject the Ho:
 There is no statistical difference between the observed sample mean performance of all Manufacturing Lots and the presumed population mean (other competitors).
 All the suspension coils from all Manufacturing Lots have the mean PSI not statistically different from the population mean PSI.
 
 ##### To determine if the PSI for each manufacturing Lot 1 is statistically different from the population mean of 1,500 PSI.
 Since p>0.05,
-Hence we fail to reject the Ho1.
+Hence we fail to reject the Ho1: 
 There is no statistical difference between the observed sample mean performance of Manufacturing Lot 1 and the presumed population mean (other competitors).
 All the suspension coils from Manufacturing Lot 1 have the mean PSI not statistically different from the population mean PSI.
 
 ##### To determine if the PSI for each manufacturing Lot 2 is statistically different from the population mean of 1,500 PSI.
 Since p>0.05,
-Hence we fail to reject the Ho2.
+Hence we fail to reject the Ho2:
 There is no statistical difference between the observed sample mean performance of Manufacturing Lot 2 and the presumed population mean (other competitors).
 All the suspension coils from Manufacturing Lot 2 have the mean PSI not statistically different from the population mean PSI.
 
 ##### To determine if the PSI for each manufacturing Lot 3 is statistically different from the population mean of 1,500 PSI.
 Since p<0.05.
-Hence we reject the Ho3.
+Hence we reject the Ho3:
 There is a statistical difference between the observed sample mean performance of Manufacturing Lot 3 and the presumed population mean (other competitors).
 All the suspension coils from Manufacturing Lot 3 have the mean PSI statistically different from the population mean PSI.
 
