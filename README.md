@@ -57,6 +57,24 @@ Ho:
 Ha:
 #### Method
 #### Results
+### To perform t-tests to determine if all manufacturing lots and each lot individually are statistically different from the population mean of 1,500 pounds per square inch.
+![image](https://user-images.githubusercontent.com/114967995/231628212-acc04675-b108-42f8-b781-15208d4f0d52.png)
+
+### To determine if the PSI for each manufacturing Lot 1 is statistically different from the population mean of 1,500 pounds per square inch.
+
+![image](https://user-images.githubusercontent.com/114967995/231629002-a1d97d11-38ec-4144-abf7-09099f2e5073.png)
+
+
+### To determine if the PSI for each manufacturing Lot 2 is statistically different from the population mean of 1,500 pounds per square inch.
+
+![image](https://user-images.githubusercontent.com/114967995/231629235-a7a31332-8cbc-4df5-a07d-168fb7664662.png)
+
+
+### To determine if the PSI for each manufacturing Lot 3 is statistically different from the population mean of 1,500 pounds per square inch.
+
+![image](https://user-images.githubusercontent.com/114967995/231629472-c947a944-e32e-4c4d-9c78-aef443735acd.png)
+
+
 #### Conclusion
 
 In your description, address the following questions:
