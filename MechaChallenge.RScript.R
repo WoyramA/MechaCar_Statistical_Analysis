@@ -15,7 +15,7 @@ Type 'demo()' for some demos, 'help()' for on-line help, or
 'help.start()' for an HTML browser interface to help.
 Type 'q()' to quit R.
 
-[Workspace loaded from C:/Users/Woyram/Desktop/Columbia DA BC 2022/Week 16-Statistics_R/R_Analysis/01_Demo/.RData]
+[Workspace loaded from C:/Users/Woyram/
 
 > library(dplyr)
 
@@ -97,3 +97,58 @@ F-statistic: 22.07 on 5 and 44 DF,  p-value: 5.35e-11
 +               variance_psi = var(PSI),
 +               sd_psi = sd(PSI))
 > View(lot_summary)
+
+
+> t.test(suspension_data$PSI, mu=1500)
+
+One Sample t-test
+
+data:  suspension_data$PSI
+t = -1.8931, df = 149, p-value = 0.06028
+alternative hypothesis: true mean is not equal to 1500
+95 percent confidence interval:
+  1497.507 1500.053
+sample estimates:
+  mean of x 
+1498.78 
+
+> t.test(subset(suspension_data, Manufacturing_Lot == "Lot1")$PSI, mu=1500)
+
+One Sample t-test
+
+data:  subset(suspension_data, Manufacturing_Lot == "Lot1")$PSI
+t = 0, df = 49, p-value = 1
+alternative hypothesis: true mean is not equal to 1500
+95 percent confidence interval:
+  1499.719 1500.281
+sample estimates:
+  mean of x 
+1500 
+
+> 
+  > t.test(subset(suspension_data, Manufacturing_Lot == "Lot2")$PSI, mu=1500)
+
+One Sample t-test
+
+data:  subset(suspension_data, Manufacturing_Lot == "Lot2")$PSI
+t = 0.51745, df = 49, p-value = 0.6072
+alternative hypothesis: true mean is not equal to 1500
+95 percent confidence interval:
+  1499.423 1500.977
+sample estimates:
+  mean of x 
+1500.2 
+
+> 
+  > t.test(subset(suspension_data, Manufacturing_Lot == "Lot3")$PSI, mu=1500)
+
+One Sample t-test
+
+data:  subset(suspension_data, Manufacturing_Lot == "Lot3")$PSI
+t = -2.0916, df = 49, p-value = 0.04168
+alternative hypothesis: true mean is not equal to 1500
+95 percent confidence interval:
+  1492.431 1499.849
+sample estimates:
+  mean of x 
+1496.14 
