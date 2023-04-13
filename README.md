@@ -29,12 +29,18 @@ Addressing the following:
 ### Total Summary 
 ![image](https://user-images.githubusercontent.com/114967995/231612686-80ae8fac-571c-411c-83e1-1be8d1197900.png)
 
-
+The mean PSI overall for all manufacturing Lots is 1.498.78 (+/- SD = 7.89), with a median of 1500 and variance of 62.29.
 
 ### (ii) The following PSI metrics for each lot: mean, median, variance, and standard deviation.
 
 ### Lot Summary
 ![image](https://user-images.githubusercontent.com/114967995/231615478-db7da3aa-2609-4a44-b69e-0820c35c9a66.png)
+
+Lot 1 had a mean of 1500.00 (+/- SD 0.99) and a median of 1500.0 with a variance of 0.98.
+Lot 2 had a mean of 1500.02 (+/- SD 2.73), a median of 1500.0 and a variance of  7.47.
+Lot 3 had a mean of 1496.14 (+/- SD 13.05), with a median 1498.5 and a variance of 170.29.
+
+
 
 
 ### (iii) Looking at the variance of the PSI column in the total_summary dataframe and the lot_summary dataframe.
