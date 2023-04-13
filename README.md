@@ -99,15 +99,14 @@ All the suspension coils from Manufacturing Lot 3 have the mean PSI to not be st
 #### Aim of the study:
 The aim of the study was to determine how the various suspension coils designed by MechaCar measure against the mean standards of the population and the competition.
 #### Research Question: 
-#### Ho: There is no statistical difference between the observed sample mean performance of all Manufacturing Lots and the presumed population mean (other competitors).
-#### Ha: There is a statistical difference between the observed sample mean performance of all Manufacturing Lots and the presumed population mean (other competitors).
-
-#### Ho1: There is no statistical difference between the observed sample mean performance  of Manufacturing Lot 1 and that of  other competitors.
-#### Ha1: There is a statistical difference between the observed sample mean performance of Manufacturing Lot 1 and that of other competitors.
-#### Ho2: There is no statistical difference between the observed sample mean performance of Manufacturing Lot 2 and that of other competitors.
-#### Ha2: There is a statistical difference between the observed sample mean performance of Manufacturing Lot 2 and that of other competitors.
-#### Ho3: There is no statistical difference between the observed sample mean performance of Manufacturing Lot 3 and that of other competitors.
-#### Ha3: There is a statistical difference between the observed sample mean performance of Manufacturing Lot 3 and that of other competitors.
+##### Ho: There is no statistical difference between the observed sample mean performance of all Manufacturing Lots and the presumed population mean (other competitors).
+##### Ha: There is a statistical difference between the observed sample mean performance of all Manufacturing Lots and the presumed population mean (other competitors).
+##### Ho1: There is no statistical difference between the observed sample mean performance  of Manufacturing Lot 1 and that of  other competitors.
+##### Ha1: There is a statistical difference between the observed sample mean performance of Manufacturing Lot 1 and that of other competitors.
+##### Ho2: There is no statistical difference between the observed sample mean performance of Manufacturing Lot 2 and that of other competitors.
+##### Ha2: There is a statistical difference between the observed sample mean performance of Manufacturing Lot 2 and that of other competitors.
+##### Ho3: There is no statistical difference between the observed sample mean performance of Manufacturing Lot 3 and that of other competitors.
+##### Ha3: There is a statistical difference between the observed sample mean performance of Manufacturing Lot 3 and that of other competitors.
 
 #### Method
 The MechaCar company decided to gather data from consumers who use their products and compare the data obtained against data from competitors. Suspension coils from three different manufacturing Lots of the MechaCar company were compared as follows Lot 1, Lot 2 and Lot 3. Data from 150 cars having suspension coils produced from Lots 1, 2 and 3 were obtained prepared to be analyzed using the R-statistical tool. The suspension coils performance was measured in pounds per inch (PSI) and this value was compared across all three groups. Descriptive summary statistics were conducted on the data and the means, standard deviations and variance of the suspension coils from the three manufacturing Lots as well as acrossboard were determined. 
