@@ -51,12 +51,22 @@ In summary, the current manufacturing data meets the design specification for al
  Write a short description of a statistical study that can quantify how the MechaCar performs against the competition. In your study design, think critically about what metrics would be of interest to a consumer: for a few examples, cost, city or highway fuel efficiency, horse power, maintenance cost, or safety rating.
 
 ### Study Design
+
 #### Aim of the study:
+
 #### Research Question:
-Ho:
-Ha:
+#### Ho: There is no statistical difference between the observed sample mean of all Manufacturing Lots and its presumed population mean.
+#### Ha: There is a statistical difference between the observed sample mean of all Manufacturing Lots and its presumed population mean.
+#### Ho1: There is no statistical difference between the observed sample mean of Manufacturing Lot 1 and its presumed population mean.
+#### Ha1: There is a statistical difference between the observed sample mean of Manufacturing Lot 1 and its presumed population mean.
+#### Ho2: There is no statistical difference between the observed sample mean of Manufacturing Lot 2 and its presumed population mean.
+#### Ha2: There is a statistical difference between the observed sample mean of Manufacturing Lot 2 and its presumed population mean.
+#### Ho3: There is no statistical difference between the observed sample mean of Manufacturing Lot3 and its presumed population mean.
+#### Ha3: There is a statistical difference between the observed sample mean of Manufacturing Lot 3 and its presumed population mean.
 #### Method
+
 #### Results
+
 #### To perform t-tests to determine if all manufacturing lots are statistically different from the population mean of 1,500 pounds per square inch.
 ![image](https://user-images.githubusercontent.com/114967995/231632227-103c4490-ca50-4365-a50f-7ad14023862e.png)
 
