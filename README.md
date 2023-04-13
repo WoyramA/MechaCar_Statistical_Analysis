@@ -110,7 +110,9 @@ The aim of the study was to determine how the various suspension coils designed 
 #### Ha3: There is a statistical difference between the observed sample mean performance of Manufacturing Lot 3 and that of other competitors.
 
 #### Method
-The MechaCar company decided to gather data from consumers who use their products and compare the data obtained against data from competitors. Suspension coils from three different manufacturing Lots of the MechaCar company were compared as follows Lot 1, Lot 2 and Lot 3. Data from 150 cars having suspension coils produced from Lots 1, 2 and 3 were obtained prepared to be analyzed using the R-statistical tool. The suspension coils performance was measured in pounds per inch (PSI) and this value was compared across all three groups. Descriptive summary statistics were conducted on the data and the means, standard deviations and variance of the suspension coils from the three manufacturing Lots as well as acrossboard were determined. The t-test was also used to compare if there would be a statistical difference between the observed sample mean suspension coil PSI and the presumed population mean PSI for each Manufacturing Lot as well as all Lots. The results are shown below in the results section:
+The MechaCar company decided to gather data from consumers who use their products and compare the data obtained against data from competitors. Suspension coils from three different manufacturing Lots of the MechaCar company were compared as follows Lot 1, Lot 2 and Lot 3. Data from 150 cars having suspension coils produced from Lots 1, 2 and 3 were obtained prepared to be analyzed using the R-statistical tool. The suspension coils performance was measured in pounds per inch (PSI) and this value was compared across all three groups. Descriptive summary statistics were conducted on the data and the means, standard deviations and variance of the suspension coils from the three manufacturing Lots as well as acrossboard were determined. 
+
+In general, a t-test compares the mean of a sample to a known or hypothesized value, such as a population mean. The resulting output of the t-test provides a p-value, which represents the probability of obtaining a test statistic as extreme or more extreme than the one observed, assuming the null hypothesis is true. The null hypothesis in this case is that the mean PSI for the manufacturing lot is equal to 1,500 pounds per square inch.If the p-value is less than the significance level (usually 0.05), we reject the null hypothesis and conclude that there is evidence to suggest that the sample mean is statistically different from the population mean. The t-test was also used to compare if there would be a statistical difference between the observed sample mean suspension coil PSI and the presumed population mean PSI for each Manufacturing Lot as well as all Lots. The results are shown below in the results section:
 
 #### Results
 
@@ -134,8 +136,8 @@ Lot 3 had a mean of 1496.14 (+/- SD 13.05), with a median 1498.5 and a variance 
 
 p>0.05
 Hence we fail to reject the Ho
-There is a statistical difference between the observed sample mean performance of all Manufacturing Lots and the presumed population mean (other competitors).
-All the suspension coils from all Manufacturing Lots have the mean PSI to be statistically different from the population mean PSI.
+There is no statistical difference between the observed sample mean performance of all Manufacturing Lots and the presumed population mean (other competitors).
+All the suspension coils from all Manufacturing Lots have the mean PSI not statistically different from the population mean PSI.
 
 #### To determine if the PSI for each manufacturing Lot 1 is statistically different from the population mean of 1,500 pounds per square inch.
 
@@ -143,8 +145,8 @@ All the suspension coils from all Manufacturing Lots have the mean PSI to be sta
 
 p>0.05
 Hence we fail to reject the Ho1
-There is a statistical difference between the observed sample mean performance of Manufacturing Lot 1 and the presumed population mean (other competitors).
-All the suspension coils from Manufacturing Lot 1 have the mean PSI to be statistically different from the population mean PSI.
+There is no statistical difference between the observed sample mean performance of Manufacturing Lot 1 and the presumed population mean (other competitors).
+All the suspension coils from Manufacturing Lot 1 have the mean PSI not statistically different from the population mean PSI.
 
 #### To determine if the PSI for each manufacturing Lot 2 is statistically different from the population mean of 1,500 pounds per square inch.
 
@@ -152,8 +154,8 @@ All the suspension coils from Manufacturing Lot 1 have the mean PSI to be statis
 
 p>0.05
 Hence we fail to reject the Ho2
-There is a statistical difference between the observed sample mean performance of Manufacturing Lot 2 and the presumed population mean (other competitors).
-All the suspension coils from Manufacturing Lot 2 have the mean PSI to be statistically different from the population mean PSI.
+There is no statistical difference between the observed sample mean performance of Manufacturing Lot 2 and the presumed population mean (other competitors).
+All the suspension coils from Manufacturing Lot 2 have the mean PSI not statistically different from the population mean PSI.
 
 #### To determine if the PSI for each manufacturing Lot 3 is statistically different from the population mean of 1,500 pounds per square inch.
 
@@ -161,10 +163,10 @@ All the suspension coils from Manufacturing Lot 2 have the mean PSI to be statis
 
 p<0.05
 Hence we reject the Ho3
-There is no statistical difference between the observed sample mean performance of Manufacturing Lot 3 and the presumed population mean (other competitors).
-All the suspension coils from Manufacturing Lot 3 have the mean PSI to not be statistically different from the population mean PSI.
+There is a statistical difference between the observed sample mean performance of Manufacturing Lot 3 and the presumed population mean (other competitors).
+All the suspension coils from Manufacturing Lot 3 have the mean PSI statistically different from the population mean PSI.
 
 #### Conclusion
 
-In conclusion, Suspension coils from Manufacturing Lot 3 have mean PSI not statistically different fom their competitors. However, suspension coils produced from the MechaCar Manufacturing Lots 1 and 2 have the mean PSI to be statistically different from that of their competitors/population. This could mean that suspension coils produced from Manufacturing Lots 1 and 2 are within expected standards as the variance for these two is very low whereas the variance for those from Lot 3 is over 170. 
+In conclusion, Suspension coils from Manufacturing Lot 3 have mean PSI statistically different fom their competitors. However, suspension coils produced from the MechaCar Manufacturing Lots 1 and 2 have the mean PSI not statistically different from that of their competitors/population. This could mean that suspension coils produced from Manufacturing Lots 1 and 2 are within expected standards as the variance for these two is also very low whereas the variance for those from Lot 3 is over 170. 
 Suspension coils produced form manufacturing Lot 3 would possibly have to be looked into to make improvements in the design and performance in order to keep up with competitors and general population standards.
