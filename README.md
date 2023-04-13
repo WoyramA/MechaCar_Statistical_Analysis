@@ -59,7 +59,7 @@ In summary, the current manufacturing data meets the design specification for al
 ### Study Design
 
 #### Aim of the study:
-
+The aim of the study was to determine how the various suspension coils designed by MechaCar measure against the mean standards of the population and the competition.
 #### Research Question: 
 #### Ho: There is no statistical difference between the observed sample mean performance of all Manufacturing Lots and the presumed population mean (other competitors).
 #### Ha: There is a statistical difference between the observed sample mean performance of all Manufacturing Lots and the presumed population mean (other competitors).
@@ -70,40 +70,50 @@ In summary, the current manufacturing data meets the design specification for al
 #### Ha2: There is a statistical difference between the observed sample mean performance of Manufacturing Lot 2 and that of other competitors.
 #### Ho3: There is no statistical difference between the observed sample mean performance of Manufacturing Lot 3 and that of other competitors.
 #### Ha3: There is a statistical difference between the observed sample mean performance of Manufacturing Lot 3 and that of other competitors.
+
 #### Method
+The MechaCar company decided to gather data from consumers who use their products and compare the data obtained against data from competitors. Suspension coils from three different manufacturing Lots of the MechaCar company were compared as follows Lot 1, Lot 2 and Lot 3. Data from 150 cars having suspension coils produced from Lots 1, 2 and 3 were obtained prepared to be analyzed using the R-statistical tool. The suspension coils performance was measured in pounds per inch (PSI) and this value was compared across all three groups. The t-test was used to compare if there would be a statistical difference between the observed sample mean suspension coil PSI and the presumed population mean PSI for each Manufacturing Lot as well as all Lots. The results are shown below in the results section:
 
 #### Results
 
 #### To perform t-tests to determine if all manufacturing lots are statistically different from the population mean of 1,500 pounds per square inch.
 ![image](https://user-images.githubusercontent.com/114967995/231632227-103c4490-ca50-4365-a50f-7ad14023862e.png)
 
+p>0.05
+Hence we fail to reject the Ho
+There is a statistical difference between the observed sample mean performance of all Manufacturing Lots and the presumed population mean (other competitors).
+All the suspension coils from all Manufacturing Lots have the mean PSI to be statistically different from the population mean PSI.
 
 #### To determine if the PSI for each manufacturing Lot 1 is statistically different from the population mean of 1,500 pounds per square inch.
 
 ![image](https://user-images.githubusercontent.com/114967995/231629002-a1d97d11-38ec-4144-abf7-09099f2e5073.png)
 
+p>0.05
+Hence we fail to reject the Ho1
+There is a statistical difference between the observed sample mean performance of Manufacturing Lot 1 and the presumed population mean (other competitors).
+All the suspension coils from Manufacturing Lot 1 have the mean PSI to be statistically different from the population mean PSI.
 
 #### To determine if the PSI for each manufacturing Lot 2 is statistically different from the population mean of 1,500 pounds per square inch.
 
 ![image](https://user-images.githubusercontent.com/114967995/231629235-a7a31332-8cbc-4df5-a07d-168fb7664662.png)
 
+p>0.05
+Hence we fail to reject the Ho2
+There is a statistical difference between the observed sample mean performance of Manufacturing Lot 2 and the presumed population mean (other competitors).
+All the suspension coils from Manufacturing Lot 2 have the mean PSI to be statistically different from the population mean PSI.
 
 #### To determine if the PSI for each manufacturing Lot 3 is statistically different from the population mean of 1,500 pounds per square inch.
 
 ![image](https://user-images.githubusercontent.com/114967995/231629472-c947a944-e32e-4c4d-9c78-aef443735acd.png)
 
+p<0.05
+Hence we reject the Ho3
+There is no statistical difference between the observed sample mean performance of Manufacturing Lot 3 and the presumed population mean (other competitors).
+All the suspension coils from Manufacturing Lot 3 have the mean PSI to not be statistically different from the population mean PSI.
 
 #### Conclusion
 
-In your description, address the following questions:
 
-What metric or metrics are you going to test?
-
-What is the null hypothesis or alternative hypothesis?
-
-What statistical test would you use to test the hypothesis? And why?
-
-What data is needed to run the statistical test?
 
 
 ## 4. Study Design: MechaCar vs Competition
