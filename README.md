@@ -22,8 +22,11 @@ The MechaCar Suspension_Coil.csv dataset contains the results from multiple prod
 
 ### (ii) The following PSI metrics for each lot: mean, median, variance, and standard deviation.
 
-### Total Summary Dataframe
+### Total Summary 
 ![image](https://user-images.githubusercontent.com/114967995/231612686-80ae8fac-571c-411c-83e1-1be8d1197900.png)
+
+### Lot Summary
+![image](https://user-images.githubusercontent.com/114967995/231615478-db7da3aa-2609-4a44-b69e-0820c35c9a66.png)
 
 
 
