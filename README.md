@@ -121,7 +121,6 @@ In general, a t-test compares the mean of a sample to a known or hypothesized va
 
 The mean PSI overall for all manufacturing Lots is 1.498.78 (+/- SD = 7.89), with a median of 1500 and variance of 62.29.
 
-### (ii) The following PSI metrics for each lot: mean, median, variance, and standard deviation.
 
 ### Lot Summary
 ![image](https://user-images.githubusercontent.com/114967995/231615478-db7da3aa-2609-4a44-b69e-0820c35c9a66.png)
@@ -131,7 +130,7 @@ Lot 2 had a mean of 1500.02 (+/- SD 2.73), a median of 1500.0 and a variance of 
 Lot 3 had a mean of 1496.14 (+/- SD 13.05), with a median 1498.5 and a variance of 170.29.
 
 
-#### To perform t-tests to determine if all manufacturing lots are statistically different from the population mean of 1,500 pounds per square inch.
+#### To determine if all manufacturing lots are statistically different from the population mean of 1,500 pounds per square inch (PSI).
 ![image](https://user-images.githubusercontent.com/114967995/231632227-103c4490-ca50-4365-a50f-7ad14023862e.png)
 
 p>0.05
@@ -139,7 +138,7 @@ Hence we fail to reject the Ho
 There is no statistical difference between the observed sample mean performance of all Manufacturing Lots and the presumed population mean (other competitors).
 All the suspension coils from all Manufacturing Lots have the mean PSI not statistically different from the population mean PSI.
 
-#### To determine if the PSI for each manufacturing Lot 1 is statistically different from the population mean of 1,500 pounds per square inch.
+#### To determine if the PSI for each manufacturing Lot 1 is statistically different from the population mean of 1,500 PSI.
 
 ![image](https://user-images.githubusercontent.com/114967995/231629002-a1d97d11-38ec-4144-abf7-09099f2e5073.png)
 
@@ -148,7 +147,7 @@ Hence we fail to reject the Ho1
 There is no statistical difference between the observed sample mean performance of Manufacturing Lot 1 and the presumed population mean (other competitors).
 All the suspension coils from Manufacturing Lot 1 have the mean PSI not statistically different from the population mean PSI.
 
-#### To determine if the PSI for each manufacturing Lot 2 is statistically different from the population mean of 1,500 pounds per square inch.
+#### To determine if the PSI for each manufacturing Lot 2 is statistically different from the population mean of 1,500 PSI.
 
 ![image](https://user-images.githubusercontent.com/114967995/231629235-a7a31332-8cbc-4df5-a07d-168fb7664662.png)
 
@@ -157,7 +156,7 @@ Hence we fail to reject the Ho2
 There is no statistical difference between the observed sample mean performance of Manufacturing Lot 2 and the presumed population mean (other competitors).
 All the suspension coils from Manufacturing Lot 2 have the mean PSI not statistically different from the population mean PSI.
 
-#### To determine if the PSI for each manufacturing Lot 3 is statistically different from the population mean of 1,500 pounds per square inch.
+#### To determine if the PSI for each manufacturing Lot 3 is statistically different from the population mean of 1,500 PSI
 
 ![image](https://user-images.githubusercontent.com/114967995/231629472-c947a944-e32e-4c4d-9c78-aef443735acd.png)
 
