@@ -51,13 +51,13 @@ In summary, the current manufacturing data meets the design specification for al
  Write a short description of a statistical study that can quantify how the MechaCar performs against the competition. In your study design, think critically about what metrics would be of interest to a consumer: for a few examples, cost, city or highway fuel efficiency, horse power, maintenance cost, or safety rating.
 
 ### Study Design
-Aim of the study:
-Research Question:
+#### Aim of the study:
+#### Research Question:
 Ho:
 Ha:
-Method
-Results
-Conclusion
+#### Method
+#### Results
+#### Conclusion
 
 In your description, address the following questions:
 
