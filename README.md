@@ -18,7 +18,7 @@ The linear model has an adjusted R-squared value of 0.6825, which indicates that
 
 ## 2. Summary Statistics on Suspension Coils
 The MechaCar Suspension_Coil.csv dataset contains the results from multiple production lots. The dataset comprises the weight capacities of multiple suspension coils  tested to determine if the manufacturing process is consistent across production lots. Using knowledge of R, a summary statistics is done and the table is showing the following below:
-(i) The suspension coil’s PSI continuous variable across all manufacturing lots.
+(i) The suspension coil’s Pounds per square inch (PSI) continuous variable across all manufacturing lots.
 (ii) The following PSI metrics for each lot: mean, median, variance, and standard deviation.
 
 Addressing the following:
@@ -54,7 +54,7 @@ In summary, the current manufacturing data meets the design specification for al
 
 #### Aim of the study:
 
-#### Research Question:
+#### Research Question: 
 #### Ho: There is no statistical difference between the observed sample mean performance of all Manufacturing Lots and the presumed population mean (other competitors).
 #### Ha: There is a statistical difference between the observed sample mean performance of all Manufacturing Lots and the presumed population mean (other competitors).
 
