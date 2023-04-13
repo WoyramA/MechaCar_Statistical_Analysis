@@ -115,10 +115,10 @@ In general, a t-test compares the mean of a sample to a known or hypothesized va
 
 #### Results
 
-### Total Summary 
+#### Total Summary 
 The mean PSI overall for all manufacturing Lots is 1.498.78 (+/- SD = 7.89), with a median of 1500 and variance of 62.29.
 
-### Lot Summary
+#### Lot Summary
 Lot 1 had a mean of 1500.00 (+/- SD 0.99) and a median of 1500.0 with a variance of 0.98.
 Lot 2 had a mean of 1500.02 (+/- SD 2.73), a median of 1500.0 and a variance of  7.47.
 Lot 3 had a mean of 1496.14 (+/- SD 13.05), with a median 1498.5 and a variance of 170.29.
