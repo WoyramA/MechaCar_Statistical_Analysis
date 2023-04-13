@@ -55,14 +55,14 @@ In summary, the current manufacturing data meets the design specification for al
 #### Aim of the study:
 
 #### Research Question:
-#### Ho: There is no statistical difference between the observed sample mean of all Manufacturing Lots and its presumed population mean.
-#### Ha: There is a statistical difference between the observed sample mean of all Manufacturing Lots and its presumed population mean.
-#### Ho1: There is no statistical difference between the observed sample mean of Manufacturing Lot 1 and its presumed population mean.
-#### Ha1: There is a statistical difference between the observed sample mean of Manufacturing Lot 1 and its presumed population mean.
-#### Ho2: There is no statistical difference between the observed sample mean of Manufacturing Lot 2 and its presumed population mean.
-#### Ha2: There is a statistical difference between the observed sample mean of Manufacturing Lot 2 and its presumed population mean.
-#### Ho3: There is no statistical difference between the observed sample mean of Manufacturing Lot3 and its presumed population mean.
-#### Ha3: There is a statistical difference between the observed sample mean of Manufacturing Lot 3 and its presumed population mean.
+#### Ho: There is no statistical difference between the observed sample mean of all Manufacturing Lots and its presumed population mean (other competitors).
+#### Ha: There is a statistical difference between the observed sample mean of all Manufacturing Lots and its presumed population mean (other competitors).
+#### Ho1: There is no statistical difference between the observed sample mean of Manufacturing Lot 1 and that of  other competitors.
+#### Ha1: There is a statistical difference between the observed sample mean of Manufacturing Lot 1 and that of other competitors.
+#### Ho2: There is no statistical difference between the observed sample mean of Manufacturing Lot 2 and that of other competitors.
+#### Ha2: There is a statistical difference between the observed sample mean of Manufacturing Lot 2 and that of other competitors.
+#### Ho3: There is no statistical difference between the observed sample mean of Manufacturing Lot 3 and that of other competitors.
+#### Ha3: There is a statistical difference between the observed sample mean of Manufacturing Lot 3 and that of other competitors.
 #### Method
 
 #### Results
