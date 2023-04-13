@@ -1,7 +1,7 @@
 # MechaCar_Statistical_Analysis
 
 ## 1. Linear Regression to Predict MPG
-The MechaCar_mpg.csv dataset containing mpg test results for 50 prototype MechaCars is analyzed using a linear model. The MechaCar prototypes were produced using multiple design specifications to identify ideal vehicle performance. Multiple metrics, such as vehicle length, vehicle weight, spoiler angle, drivetrain, and ground clearance, were collected for each vehicle. Using R, a linear model that predicts the mpg of MechaCar prototypes using several variables from the MechaCar_mpg.csv file is shown below to answer the questions below.
+The MechaCar_mpg.csv dataset containing mpg test results for 50 prototype MechaCars was analyzed using a linear model. The MechaCar prototypes were produced using multiple design specifications to identify ideal vehicle performance. Multiple metrics, such as vehicle length, vehicle weight, spoiler angle, drivetrain, and ground clearance, were collected for each vehicle. Using R, a linear model that predicts the mpg of MechaCar prototypes using several variables from the MechaCar_mpg.csv file is shown below to answer the questions below.
 
 ![image](https://user-images.githubusercontent.com/114967995/231612365-31338d73-4f36-48f2-b2bf-703c167b553b.png)
 
@@ -17,13 +17,14 @@ The linear model has an adjusted R-squared value of 0.6825, which indicates that
 
 
 ## 2. Visualizations for Trip Analysis
-The MechaCar Suspension_Coil.csv dataset contains the results from multiple production lots. In this dataset, the weight capacities of multiple suspension coils were tested to determine if the manufacturing process is consistent across production lots. Using knowledge of R, a summary statistics table is shown below:
+The MechaCar Suspension_Coil.csv dataset contains the results from multiple production lots. The dataset comprises the weight capacities of multiple suspension coils  tested to determine if the manufacturing process is consistent across production lots. Using knowledge of R, a summary statistics is done and the table is showing the following below:
+### (i) The suspension coil’s PSI continuous variable across all manufacturing lots.
+
+### (ii) The following PSI metrics for each lot: mean, median, variance, and standard deviation.
 
 ### Total Summary Dataframe
 ![image](https://user-images.githubusercontent.com/114967995/231612686-80ae8fac-571c-411c-83e1-1be8d1197900.png)
 
-### (i) The suspension coil’s PSI continuous variable across all manufacturing lots.
 
-### (ii) The following PSI metrics for each lot: mean, median, variance, and standard deviation.
 
 
