@@ -37,7 +37,19 @@ Addressing the following:
 ![image](https://user-images.githubusercontent.com/114967995/231615478-db7da3aa-2609-4a44-b69e-0820c35c9a66.png)
 
 
-### (iii) (iii) The design specifications for the MechaCar suspension coils dictate that the variance of the suspension coils must not exceed 100 pounds per square inch. Does the current manufacturing data meet this design specification for all manufacturing lots in total and each lot individually? Why or why not?
+### (iii) Looking at the variance of the PSI column in the total_summary dataframe and the lot_summary dataframe.
+
+According to the question, the design specification for the MechaCar suspension coils is that the variance of the suspension coils must not exceed 100 pounds per square inch. If the variance of the PSI column exceeds 100 pounds per square inch, it means that the current manufacturing data does not meet the design specification.
+
+From the total_summary dataframe, we can see the variance of the PSI column is 76.23 pounds per square inch, which is less than 100 pounds per square inch. Therefore, the current manufacturing data meets the design specification for all manufacturing lots in total.
+
+However, when we look at the lot_summary dataframe, we can see that the variance of the PSI column for Lot 3 is 170.29 pounds per square inch, which exceeds the design specification of 100 pounds per square inch. Therefore, the current manufacturing data does not meet the design specification for Lot 3 individually.
+
+In summary, the current manufacturing data meets the design specification for all manufacturing lots in total, but does not meet the design specification for Lot 3 individually, as its variance of the PSI column exceeds 100 pounds per square inch.
+
+
+
+
 
 
 
