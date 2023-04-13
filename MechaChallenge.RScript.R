@@ -30,9 +30,7 @@ The following objects are masked from ‘package:base’:
   intersect, setdiff, setequal, union
 
 > mpg_data <- read.csv("MechaCar_mpg.csv")
-> lm_fit <- lm(mpg ~ vehicle_length + vehicle_weight + spoiler_angle + ground_clearance + AWD, data = mpg_data)
-> To calculate the p-value and r-squared value for the linear regression model, we can use the summary() function on the lm() object that we created earlier. Here's the code:
-Error: unexpected symbol in "To calculate"
+
 > lm_model <- lm(mpg ~ ., data = MechaCar_mpg)
 > summary(lm_model)
 
@@ -58,7 +56,6 @@ Residual standard error: 8.774 on 44 degrees of freedom
 Multiple R-squared:  0.7149,	Adjusted R-squared:  0.6825 
 F-statistic: 22.07 on 5 and 44 DF,  p-value: 5.35e-11
 
-> source("C:/Users/Woyram/Desktop/Columbia DA BC 2022/Week 16-Statistics_R/R_Analysis/01_Demo/MechaChallenge.RScript.R")
 > library(dplyr)
 > mpg_data <- read.csv("MechaCar_mpg.csv")
 > lm_model <- lm(mpg ~ ., data = MechaCar_mpg)
@@ -86,42 +83,13 @@ Residual standard error: 8.774 on 44 degrees of freedom
 Multiple R-squared:  0.7149,	Adjusted R-squared:  0.6825 
 F-statistic: 22.07 on 5 and 44 DF,  p-value: 5.35e-11
 
-> source("C:/Users/Woyram/Desktop/Columbia DA BC 2022/Week 16-Statistics_R/R_Analysis/01_Demo/MechaChallenge.RScript.R")
-> source("C:/Users/Woyram/Desktop/Columbia DA BC 2022/Week 16-Statistics_R/Weekly challenge 16/MechaCar_Statistical_Analysis/MechaChallenge.RScript.R")
-> View(MechaCar_mpg)
-> source("C:/Users/Woyram/Desktop/Columbia DA BC 2022/Week 16-Statistics_R/Weekly challenge 16/MechaCar_Statistical_Analysis/MechaChallenge.RScript.R")
-> View(MechaCar_mpg)
 > suspension_data <- read.csv("Suspension_Coil.csv")
 > total_summary <- suspension_data %>% 
 +     summarize(mean_PSI = mean(PSI), median_PSI = median(PSI), var_PSI = var(PSI), sd_PSI = sd(PSI))
 > View(total_summary)
 > View(suspension_data)
 > View(total_summary)
-> lot_summary <- manufacturing_data %>%
-+     group_by(lot) %>%
-+     summarize(mean_psi = mean(suspension_coil_psi),
-+               median_psi = median(suspension_coil_psi),
-+               variance_psi = var(suspension_coil_psi),
-+               sd_psi = sd(suspension_coil_psi))
-Error in group_by(., lot) : object 'manufacturing_data' not found
-> lot_summary <- suspension_data %>%
-+     group_by(lot) %>%
-+     summarize(mean_psi = mean(suspension_coil_psi),
-+               median_psi = median(suspension_coil_psi),
-+               variance_psi = var(suspension_coil_psi),
-+               sd_psi = sd(suspension_coil_psi))
-Error in `group_by()`:
-! Must group by variables found in `.data`.
-✖ Column `lot` is not found.
-Run `rlang::last_trace()` to see where the error occurred.
-> lot_summary <- suspension_coil %>%
-+     group_by(Manufacturing_Lot) %>%
-+     summarize(mean_psi = mean(PSI),
-+               median_psi = median(PSI),
-+               variance_psi = var(PSI),
-+               sd_psi = sd(PSI))
-Error in group_by(., Manufacturing_Lot) : 
-  object 'suspension_coil' not found
+
 > lot_summary <- suspension_data %>%
 +     group_by(Manufacturing_Lot) %>%
 +     summarize(mean_psi = mean(PSI),
